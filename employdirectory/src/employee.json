@@ -25,7 +25,7 @@
         "firstName": "Cake Mix",
         "lastName": "test",
         "email": "hello@world.com",
-        "showing": false
+        "showing": true
     },
     {
         "id": 5,

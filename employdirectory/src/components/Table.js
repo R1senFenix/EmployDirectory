@@ -9,13 +9,13 @@ function Table() {
     return (
         <div className="table-responsive">
 
-            <table class="table table-striped">
-                <thead>
+            <table id="dtBasicExample" class="table table-primary table-striped">
+                <thead class="thead-dark">
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th class="th" scope="col">ID #</th>
+                        <th class="th" scope="col">First Name</th>
+                        <th class="th" scope="col">Last Name</th>
+                        <th class="th" scope="col">Email</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,12 +27,6 @@ function Table() {
                             <td key={item.email}>{item.email}</td>
                         </tr>
                     ))}
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
                 </tbody>
             </table>
         </div >
